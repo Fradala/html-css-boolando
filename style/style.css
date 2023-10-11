@@ -9,6 +9,7 @@ header{
     color: white;
     justify-content: center;
     align-items: center;
+    justify-content: space-between;
 }
 
 .flex{
@@ -45,6 +46,7 @@ p{
     color: white;
     height: 100%;
     padding: 14px 5px 5px 5px;
+    align-self: flex-end;
 }
 
 .contenitore{
@@ -107,6 +109,14 @@ article.prodotto span.cuore {
     padding: 3px;
 }
 
+.foto-R{
+    display: block;
+}
+
+.foto-S{
+    display: none;
+}
+
 .nome-marca{
     font-size: 10px;
 }
@@ -139,5 +149,10 @@ article.prodotto span.cuore {
     text-align: center;
     padding: 3px;
 
+}
+
+.article:hover img{
+    background-image: url(./image/1bwebp);
+    
 }
 
