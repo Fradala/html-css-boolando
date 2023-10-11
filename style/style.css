@@ -66,7 +66,6 @@ article.prodotto{
     width: calc((100% / 3) - .5rem);
     margin:  2rem .25rem;
     position: relative;
-    height: 500px;
     
     justify-content: center;
     align-items: center;
@@ -89,7 +88,7 @@ article.prodotto span.cuore {
 
 .sconto{
     position: absolute;
-    bottom: 15px;
+    bottom: 70px;
     left: 0;
     background-color: red;
     font-size: 10px;
@@ -100,7 +99,7 @@ article.prodotto span.cuore {
 
 .verde{
     position: absolute;
-    bottom: 15px;
+    bottom: 70px;
     left: 34px;
     background-color: green;
     font-size: 10px;
@@ -141,7 +140,7 @@ article.prodotto span.cuore {
 
 .apposta{
     position: absolute;
-    bottom: 15px;
+    bottom: 70px;
     left: 0px;
     background-color: green;
     font-size: 10px;
@@ -151,8 +150,27 @@ article.prodotto span.cuore {
 
 }
 
-.article:hover img{
-    background-image: url(./image/1bwebp);
+.article:hover .img .foto-R{
+    background-image: url(./img/1b.webp);
     
 }
 
+.ultima-parte{
+    padding-top: 3rem;
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin: auto;
+    
+}
+
+.boolando{
+    padding-left: 143px;
+}
+
+.footer{
+    width: 70%;
+    font-size: 15px;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+}
