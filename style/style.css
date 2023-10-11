@@ -48,8 +48,9 @@ p{
 
 .contenitore{
     margin: 0 auto;
-    width: 90%;
+    width: 70%;
 }
+
 
 
 .riga{
@@ -57,4 +58,36 @@ p{
     justify-content: center;
     align-items: center;
     align-content: space-around;
+}
+article.prodotto{
+    width: calc((100% / 3) - .5rem);
+    margin:  2rem .25rem;
+    position: relative;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+}
+
+article.prodotto img{
+    height: 100%;
+    width: 100%;
+}
+
+article.prodotto span.cuore {
+    position: absolute;
+    top: 5px;
+    right:0;
+    background-color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+}
+
+.article.prodotto span.sconto{
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    background-color: red;
+    font-size: 2rem;
+
 }
