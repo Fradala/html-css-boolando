@@ -150,9 +150,11 @@ article.prodotto span.cuore {
 
 }
 
-.article:hover .img .foto-R{
-    background-image: url(./img/1b.webp);
-    
+.prodotto:hover .foto-R{
+    display:none;
+}
+.prodotto:hover .foto-S{
+    display:block;
 }
 
 .ultima-parte{
@@ -173,4 +175,8 @@ article.prodotto span.cuore {
     font-size: 15px;
     margin: 0 auto;
     padding-bottom: 3rem;
+}
+
+.prima-parte-fot{
+    justify-content: space-around;
 }
